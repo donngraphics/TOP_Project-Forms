@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TOP: Forms</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="bricksBackground">
+            <!-- <img src="images/bricks.jpg" alt="Bricks" /> -->
+            <div class="img-box">
+                <img src="images/DG_Logo_Canvas.png" alt="Donn's Graphics" />
+                <div class="dg">
+                    <p>DONN'S</p>
+                    <p>GRAPHICS</p>
+
+                </div>
+
+            </div>
+            <div class="bottom">
+                <p>Photo by <a
+                        href="https://unsplash.com/@seaofthesaints?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christina
+                        DelliSante</a> on <a
+                        href="https://unsplash.com/photos/a-close-up-of-a-brick-wall-with-holes-in-it-VkWH9RclrhU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                </p>
+            </div>
+        </div>
+        <div class="content">
+            <p>Here to bring your vision to life!
+                Fill out the form below and we here at Donn's Graphics will get started on your new reality!
+            </p>
+
+            <form action='' method='get' class='speaker-form'>
+
+                <div class="form-row">
+                    <label for="first-name">First Name<span aria-label="required">*</span></label>
+                    <input type="text" name="first-name" id="first-name" required />
+                </div>
+
+                <div class="form-row">
+
+                    <label for="first-name">Last Name<span aria-label="required">*</span></label>
+                    <input type="text" name="last-name" id="last-name" required />
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email<span aria-label="required">*</span></label>
+                    <input type="email" name="email" id="email" required />
+                </div>
+
+                <div class="form-row">
+                    <label for="phone">Phone Number<span aria-label="required">*</span></label>
+                    <input type="text" name="phone" id="phone" required />
+                </div>
+
+                <div class="form-row">
+                    <label for="password">Password<span aria-label="required">*</span></label>
+                    <input type="password" name="password" id="password" required minlength="5" />
+                </div>
+
+                <div class="form-row">
+                    <label for="password2">Confirm Password<span aria-label="required">*</span></label>
+                    <input type="password" name="password2" id="password2" required />
+                </div>
+
+                <button>Create Account</button>
+            </form>
+            <p>Already have an account? <span class="log-in">Log in</span></p>
+        </div>
+
+    </div>
+
+    <script src="script.css" async defer></script>
+</body>
+
+</html>
